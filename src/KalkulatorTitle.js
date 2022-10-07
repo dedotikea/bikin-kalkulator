@@ -1,10 +1,10 @@
 import React from "react";
 
 //bikin title dengan props value
-const KalkulatorTitle = (props) => {
+const KalkulatorTitle = () => {
     return (
         <div className="kalkulator-title">
-            { props.value }
+            Latihan bikin kalkulator
         </div>
     )
 }

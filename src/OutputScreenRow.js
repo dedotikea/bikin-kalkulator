@@ -3,12 +3,9 @@ import React from "react";
 //buat nampilin si inputan sama jawaban
 const OutputScreenRow = (props) => {
     return (
-        <div className="scren-row">
-            <input
-                type="text"
-                readOnly
-                value={props.values}></input>
-        </div>
+        <form>
+            <input type="text" readOnly value={props.label}></input>
+        </form>
     )
 }
 

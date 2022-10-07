@@ -2,11 +2,11 @@ import React from "react";
 import OutputScreenRow from "./OutputScreenRow";
 
 //bikin 2 screen output buat jawaban sama pertanyaan
-const OutputScreen = (props) => {
+const OutputScreen = () => {
     return (
-        <div className="screen">
-            <OutputScreenRow value={props.question}></OutputScreenRow>
-            <OutputScreenRow value={props.answer}></OutputScreenRow>
+        <div>
+            <OutputScreenRow label={"test"}></OutputScreenRow>
+            <OutputScreenRow label={"test2"}></OutputScreenRow>
         </div>
     )
 }
